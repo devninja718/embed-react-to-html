@@ -1,5 +1,5 @@
 var head = document.getElementsByTagName('head')[0];
-var URL = "http://localhost:8000"
+var URL = "http://ec2-18-221-252-125.us-east-2.compute.amazonaws.com"
 generateHeadDate('base', {id: 'viewport', href: window.location.pathname})
 // Viewport
 generateHeadDate('meta', {
